@@ -1,6 +1,6 @@
 # Clocks
 
-A SwiftUI clone of Apple's Clock app, built as a personal learning project to get hands-on with SwiftUI, `@State`/`@Binding`, `List`/`Section` layouts, and custom UIKit interop via `UIViewRepresentable`.
+A SwiftUI clone of Apple's Clock app, built as a personal learning project to get hands-on with SwiftUI, `@State`/`@Binding`, `List`/`Section` layouts, and custom UIKit interop via `UIViewRepresentable`. Evolving into a personal time-tracking app with Pomodoro sessions, logs, and stats on top of the Clock UI.
 
 ## Why this project
 
@@ -8,6 +8,7 @@ I wanted to go beyond tutorials and rebuild a real, polished system app pixel-by
 
 ## Features
 
+**Alarms**
 - [x] Alarms list with grouped sections ("Sleep | Wake Up", "Other")
 - [x] Toolbar with Edit / Add buttons, iOS 26 Liquid Glass styling
 - [x] Add Alarm screen with custom time wheel
@@ -15,7 +16,17 @@ I wanted to go beyond tutorials and rebuild a real, polished system app pixel-by
 - [x] Label, Sound, Snooze, Snooze Duration rows
 - [ ] Persisting alarms (currently in-memory only)
 - [ ] Actual local notifications when an alarm fires
-- [ ] World Clock / Stopwatch / Timers tabs
+
+**Stopwatch / Timers**
+- [ ] Stopwatch tab
+- [ ] Timers tab
+
+**Pomodoro (beyond the original Clock app)**
+- [ ] Run a Pomodoro session (work/break intervals)
+- [ ] Session logs — history of completed sessions
+- [ ] Stats view — time tracked over day/week/month
+
+This turns the project from a pure clone into a personal time-tracking app, using the Clock app's UI as the visual foundation.
 
 ## Screens
 
